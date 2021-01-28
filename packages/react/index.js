@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ["plugin:react/recommended", "@prxmat/eslint-config-ts"],
+  extends: ['plugin:react/recommended', '@prxmat/eslint-config-ts'],
   rules: {
-    "jsx-quotes": ["error", "prefer-double"],
+    'jsx-quotes': ['error', 'prefer-double'],
   },
-};
+}
