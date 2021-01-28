@@ -1,0 +1,18 @@
+{
+  "name": "@prxmat/eslint-config-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "author": "Mathieu Roux <https://github.com/prxmat/>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prxmat/eslint-config": "*",
+    "eslint": "^7.18.0",
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.3"
+  }
+}
