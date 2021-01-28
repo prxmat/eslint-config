@@ -1,6 +1,6 @@
 {
   "name": "@prxmat/eslint-config-vue",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@prxmat/eslint-config-ts": "^0.1.4",
+    "@prxmat/eslint-config-ts": "^0.1.5",
     "eslint-plugin-vue": "7.1.0"
   },
   "devDependencies": {

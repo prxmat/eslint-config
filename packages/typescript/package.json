@@ -1,6 +1,6 @@
 {
   "name": "@prxmat/eslint-config-ts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -17,7 +17,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@prxmat/eslint-config-basic": "^0.1.4",
+    "@prxmat/eslint-config-basic": "^0.1.5",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0"
   },
