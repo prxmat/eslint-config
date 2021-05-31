@@ -17,17 +17,16 @@ importers:
     devDependencies:
       eslint: 7.11.0
     specifiers:
-      '@prxmat/eslint-config-react': ^0.1.0
-      '@prxmat/eslint-config-vue': ^0.1.0
+      '@prxmat/eslint-config-react': ^0.1.5
+      '@prxmat/eslint-config-vue': ^0.1.5
       eslint: ^7.11.0
   packages/basic:
     dependencies:
-      eslint-config-standard: 14.1.1_7b9f2890a5c3fd6c4ecd95ae2a6099a8
+      eslint-config-standard: 14.1.1_8912ea3be59f8105d8b5d9c138f608ad
       eslint-plugin-html: 6.1.0
       eslint-plugin-import: 2.22.1_eslint@7.11.0
       eslint-plugin-node: 11.1.0_eslint@7.11.0
       eslint-plugin-promise: 4.2.1
-      eslint-plugin-standard: 4.0.1_eslint@7.11.0
       eslint-plugin-unicorn: 23.0.0_eslint@7.11.0
     devDependencies:
       eslint: 7.11.0
@@ -38,7 +37,6 @@ importers:
       eslint-plugin-import: ^2.22.1
       eslint-plugin-node: ^11.1.0
       eslint-plugin-promise: ^4.2.1
-      eslint-plugin-standard: ^4.0.1
       eslint-plugin-unicorn: ^23.0.0
   packages/react:
     dependencies:
@@ -49,7 +47,7 @@ importers:
       react: 16.14.0
       typescript: 4.0.3
     specifiers:
-      '@prxmat/eslint-config-ts': ^0.1.1
+      '@prxmat/eslint-config-ts': ^0.1.5
       eslint: ^7.11.0
       eslint-plugin-react: ^7.21.5
       react: ^16.14.0
@@ -62,7 +60,7 @@ importers:
     devDependencies:
       eslint: 7.11.0
     specifiers:
-      '@prxmat/eslint-config-basic': ^0.1.0
+      '@prxmat/eslint-config-basic': ^0.1.5
       '@typescript-eslint/eslint-plugin': ^4.5.0
       '@typescript-eslint/parser': ^4.5.0
       eslint: ^7.11.0
@@ -73,7 +71,7 @@ importers:
     devDependencies:
       eslint: 7.11.0
     specifiers:
-      '@prxmat/eslint-config-ts': ^0.1.1
+      '@prxmat/eslint-config-ts': ^0.1.5
       eslint: ^7.11.0
       eslint-plugin-vue: 7.1.0
 lockfileVersion: 5.2
@@ -2523,13 +2521,12 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-otzzTim2/1+lVrlH19EfQQJEhVJSu0zOb9ygb3iapN6UlyaDtyRq4b5U1FuW0v1lRa9Fp/GJyHkSwm6NqABgCA==
-  /eslint-config-standard/14.1.1_7b9f2890a5c3fd6c4ecd95ae2a6099a8:
+  /eslint-config-standard/14.1.1_8912ea3be59f8105d8b5d9c138f608ad:
     dependencies:
       eslint: 7.11.0
       eslint-plugin-import: 2.22.1_eslint@7.11.0
       eslint-plugin-node: 11.1.0_eslint@7.11.0
       eslint-plugin-promise: 4.2.1
-      eslint-plugin-standard: 4.0.1_eslint@7.11.0
     dev: false
     peerDependencies:
       eslint: '>=6.2.2'
@@ -2639,14 +2636,6 @@ packages:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     resolution:
       integrity: sha512-8MaEggC2et0wSF6bUeywF7qQ46ER81irOdWS4QWxnnlAEsnzeBevk1sWh7fhpCghPpXb+8Ks7hvaft6L/xsR6g==
-  /eslint-plugin-standard/4.0.1_eslint@7.11.0:
-    dependencies:
-      eslint: 7.11.0
-    dev: false
-    peerDependencies:
-      eslint: '>=5.0.0'
-    resolution:
-      integrity: sha512-v/KBnfyaOMPmZc/dmc6ozOdWqekGp7bBGq4jLAecEfPGmfKiWS4sA8sC0LqiV9w5qmXAtXVn4M3p1jSyhY85SQ==
   /eslint-plugin-unicorn/23.0.0_eslint@7.11.0:
     dependencies:
       ci-info: 2.0.0
