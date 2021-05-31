@@ -1,6 +1,6 @@
 {
   "name": "@prxmat/eslint-config-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@prxmat/eslint-config-ts": "^0.1.5",
+    "@prxmat/eslint-config-ts": "^0.1.6",
     "eslint-plugin-react": "^7.21.5"
   },
   "devDependencies": {
