@@ -1,6 +1,6 @@
 {
   "name": "@prxmat/eslint-config-react",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "",
   "keywords": [],
   "author": "Anthony Fu <https://github.com/prxmat/>",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@prxmat/eslint-config-ts": "^0.1.9",
+    "@prxmat/eslint-config-ts": "^0.1.10",
     "eslint-plugin-react": "^7.22.0"
   },
   "devDependencies": {

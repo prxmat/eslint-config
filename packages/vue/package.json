@@ -1,6 +1,6 @@
 {
   "name": "@prxmat/eslint-config-vue",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "",
   "keywords": [],
   "author": "Mathieu Roux <https://github.com/prxmat/>",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@prxmat/eslint-config-ts": "^0.1.9",
+    "@prxmat/eslint-config-ts": "^0.1.10",
     "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
