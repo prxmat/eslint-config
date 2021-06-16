@@ -1,26 +1,21 @@
+const basic = require('@prxmat/eslint-config-basic')
+
 module.exports = {
-  plugins: ['@typescript-eslint'],
-  parser: '@typescript-eslint/parser',
   extends: [
     '@prxmat/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
+  overrides: basic.overrides,
   rules: {
     // TS
     'no-useless-constructor': 'off',
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/member-delimiter-style': [
-      'error',
-      { multiline: { delimiter: 'none' } },
-    ],
+    '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
 
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      2,
-      { args: 'none', ignoreRestSiblings: true },
-    ],
+    '@typescript-eslint/no-unused-vars': 'error',
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
 

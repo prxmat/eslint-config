@@ -2,13 +2,13 @@
   "name": "@prxmat/eslint-config-vue",
   "version": "0.1.9",
   "description": "",
-  "main": "index.js",
   "keywords": [],
   "author": "Mathieu Roux <https://github.com/prxmat/>",
   "license": "MIT",
   "files": [
     "index.js"
   ],
+  "main": "index.js",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
@@ -17,9 +17,9 @@
   },
   "dependencies": {
     "@prxmat/eslint-config-ts": "^0.1.9",
-    "eslint-plugin-vue": "7.1.0"
+    "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.22.0"
   }
 }

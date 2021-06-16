@@ -2,16 +2,16 @@
   "name": "@prxmat/eslint-config-basic",
   "version": "0.1.9",
   "description": "",
-  "main": "index.js",
   "keywords": [],
   "author": "Mathieu Roux <https://github.com/prxmat>",
   "license": "MIT",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "files": [
     "index.js"
   ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -19,15 +19,19 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-html": "^6.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsonc": "^1.2.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-unicorn": "^23.0.0",
-    "standard": "^16.0.3"
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-unicorn": "^28.0.2",
+    "eslint-plugin-yml": "^0.8.1",
+    "jsonc-eslint-parser": "^1.0.1",
+    "yaml-eslint-parser": "^0.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "standardx": "^7.0.0"
+    "eslint": "^7.22.0"
   }
 }
